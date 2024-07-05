@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Verification</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/yslogo.png">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .banner {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .banner img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .header h1, .project-name {
+            margin: 0;
+            font-size: 26px;
+            color: #007bff;
+        }
+        .header .tech-icons {
+            margin-top: 10px;
+        }
+        .header .tech-icons img {
+            width: 30px;
+            margin: 0 5px;
+        }
+        .content {
+            padding: 20px;
+            text-align: left;
+        }
+        .content p {
+            font-size: 16px;
+            color: #333333;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        .verify-button-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .verify-button {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 5%;
+        }
+
+        .verify-button:hover{
+            color:#333333;
+            text-decoration: none;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .footer p {
+            font-size: 12px;
+            color: #777777;
+            margin: 5px 0;
+        }
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+        }
+        @media (max-width: 480px) {
+            .content p {
+                font-size: 14px;
+            }
+            .verify-button {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <img src="/mailbanner.png" alt="Banner Image">
+        </div>
+        <div class="header">
+            <h1>Welcome to Youngstorage Lab</h1>
+            <div class="tech-icons">
+                <img src="https://img.icons8.com/ios-filled/50/000000/cloud.png" alt="Cloud Icon">
+                <img src="https://img.icons8.com/ios-filled/50/000000/data-in-both-directions.png" alt="Data Icon">
+                <img src="https://img.icons8.com/ios-filled/50/000000/storage.png" alt="Storage Icon">
+            </div>
+        </div>
+        <div class="content">
+            <p>Hi [User's Name],</p>
+            <p>Welcome to Youngstorage Lab! We're thrilled to have you join our innovative community.</p>
+            <p>To ensure the security of your account and complete your registration, we need to verify your email address. This step helps us confirm your identity and protect your data.</p>
+            <p>Click the button below to activate your account and unlock the full potential of Youngstorage Lab:</p>
+            <div class="verify-button-container">
+                <a href="[Verification Link]" class="verify-button">Verify My Email</a>
+            </div>
+            <p>Once verified, you'll be able to access all the features and resources available to our users, including advanced data storage solutions, collaborative tools, and more.</p>
+            <p>If you didn't sign up for Youngstorage Lab, please disregard this email or contact our support team for assistance.</p>
+        </div>
+        <div class="footer">
+            <p>
+                <a href="privacy_policy_url">Privacy Policy</a> | 
+                <a href="unsubscribe_url">Unsubscribe</a>
+            </p>
+            <p>Copyright © Bloomskilltech. All rights reserved.</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
